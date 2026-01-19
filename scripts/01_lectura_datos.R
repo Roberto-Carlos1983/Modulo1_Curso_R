@@ -21,3 +21,4 @@ datos <- read_csv(path_datos)
 # 4. EXPLORACIÓN INICIAL ----
 head(datos)    # Ver las primeras 6 filas
 glimpse(datos) # Ver estructura de columnas y tipos de datos
+str()
