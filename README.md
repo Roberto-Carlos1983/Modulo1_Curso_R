@@ -3,17 +3,20 @@
 # 📊 Módulo 1: Introducción a R - Curso 2026
 
 ## Descripción
-Este proyecto contiene los ejercicios para la primera sesión de capacitación en R. 
-El objetivo es aprender a manejar estructuras de carpetas y cargar datos de matrícula.
+Este proyecto contiene los ejercicios para el primer módulo de capacitación en R. 
+El objetivo es realizar las configuraciones iniciales para el curso de capacitación, conocer RStudio, cargar datos y reconocer tipo de datos.
 
-## Estructura del Proyecto
-- `data/raw/`: Contiene la base de datos de matrícula inicial "sucia".
-- `scripts/`: Contiene el script `01_lectura_datos.R`.
-- `outputs/`: Aquí se guardarán los reportes generados.
+## Estructura del Proyecto del Módulo 1
+- `data/raw/`: Contiene las bases de datos "sucias".
+- `data/processed/`: Contiene las bases de datos "limpias".
+- `scripts/`: Contiene los scripts utilizados en el módulo.
+- `Modulo1_Curso_R.Rproj`: Archivo maestro del proyecto. **Ábrelo siempre para trabajar.**
+
+---
 
 ## 🛠️ Requisitos Previos
 Antes de empezar, asegúrate de tener instalado:
-1. **R** (versión 4.3 o superior)
+1. **R**
 2. **RStudio Desktop**
 3. **Git** ([Descárgalo aquí](https://git-scm.com/downloads))
 
@@ -22,7 +25,7 @@ Antes de empezar, asegúrate de tener instalado:
 ## 📥 Cómo obtener el material (Clonar)
 Para tener este proyecto en tu computadora, no descargues un ZIP. Sigue estos pasos en RStudio:
 1. Ve a **File > New Project > Version Control > Git**.
-2. En **Repository URL**, pega este enlace: `https://github.com/TU_USUARIO/Modulo1_Curso_R.git`
+2. En **Repository URL**, pega este enlace: `https://github.com/Roberto-Carlos1983/Modulo1_Curso_R.git`
 3. Elige la carpeta donde quieres guardarlo y haz clic en **Create Project**.
 
 ---
@@ -36,18 +39,10 @@ Para que puedas recibir mis actualizaciones sin que tu RStudio se bloquee con "c
 ---
 
 ## 🔄 Cómo recibir actualizaciones (Pull)
-Si en clase aviso que he subido nuevos datos o corregido un script:
+Cuando actualice bases de datos, scripts o cualquier información de este módulo, tu debes realizar lo siguiente desde tu sesión de RStudio:
 1. Ve a la pestaña **Git** (arriba a la derecha en RStudio).
 2. Haz clic en la **flecha azul hacia abajo (Pull)**.
 3. ¡Listo! Los archivos nuevos aparecerán mágicamente en tu computadora.
-
----
-
-## 📁 Estructura del Proyecto
-* `data/raw/`: Bases de datos originales (¡No modificar!).
-* `data/processed/`: Aquí guardaremos los resultados de nuestras limpiezas.
-* `scripts/`: Código fuente de las clases.
-* `Modulo1_Curso_R.Rproj`: Archivo maestro del proyecto. **Ábrelo siempre para trabajar.**
 
 ---
 
@@ -58,6 +53,7 @@ Si hiciste cambios por error en un archivo original y el botón **Pull** te da u
 3. Intenta el **Pull** de nuevo.
 4. *Si nada funciona:* Borra la carpeta del curso en tu PC y vuelve a **Clonar** el proyecto. ¡Es la solución más rápida!
 
+---
 
 ## Contacto
 Dudas o soporte: roberto.rodriguez@mined.gob.sv
