@@ -1,8 +1,9 @@
 # =========================================================
-# Título: Sesión 1 - Conociendo RStudio
-# Propósito: Conocer RStudio
+# Título: Sesión 1 - R y RStudio
+# Propósito: Comenzar a conocer R en el entorno RStudio
 # =========================================================
 
+#R el lenguaje y RStudio la interfaz para ejecutar código R
 #Entorno de Desarrollo Integrado (Integrated Development Environment (IDE))
 
 # 1. Conociendo el panel de RStudio
@@ -68,9 +69,6 @@ setwd("")
 read.csv("base_datos.csv")
 read.csv("dataset/ultimos/base_datos.csv")
 
-# 'here' detecta automáticamente la raíz del proyecto
-path_datos <- here("data", "raw", "titanic.csv")
-
 # 3. Lectura de datos
 
 read.csv()
@@ -92,15 +90,18 @@ file.choose()
 
 datos <- read_csv("copiar ruta")
 
-# 4. EXPLORACIÓN INICIAL ----
-head(datos)    # Ver las primeras 6 filas
-glimpse(datos) # Ver estructura de columnas y tipos de datos
-str()
+# 4. Exploración inicial ----
+carros <- data.frame(mtcars)
 
-summary()
+head(carros)
+tail(carros)    # Ver las primeras 6 filas
 
-ggplot2::ggplot()
+library(tidyverse)
+glimpse(carros) # Ver estructura de columnas y tipos de datos
+str(carros)
+class(carros$mpg)
+class(carros$gear)
+summary(carros)
 
-#PRUEBA
 
 
